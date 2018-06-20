@@ -21,5 +21,6 @@ Next version will bring full GH compatibility such as:
 * Output DataTree with ordered polylines by cut and another for ordered labels
 * ...
 
+This component is just a port to Grasshopper from the original terminal app found on GitHub (which this project has been forked from).
 
 Many respects & credits to [the original app developer](https://github.com/ruarai/CuttingStockProblem)
