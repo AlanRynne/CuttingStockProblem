@@ -1,9 +1,7 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30723.0
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuttingStock", "CuttingStock\CuttingStock.csproj", "{4E4623E0-91FC-4505-9B3F-FBF477673162}"
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CuttingStockComponent", "CuttingStockComponent\CuttingStockComponent.csproj", "{0AB03CB5-A999-4FFD-A7ED-BE9A95447339}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +9,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4E4623E0-91FC-4505-9B3F-FBF477673162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E4623E0-91FC-4505-9B3F-FBF477673162}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E4623E0-91FC-4505-9B3F-FBF477673162}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E4623E0-91FC-4505-9B3F-FBF477673162}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
+		{0AB03CB5-A999-4FFD-A7ED-BE9A95447339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB03CB5-A999-4FFD-A7ED-BE9A95447339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB03CB5-A999-4FFD-A7ED-BE9A95447339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB03CB5-A999-4FFD-A7ED-BE9A95447339}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

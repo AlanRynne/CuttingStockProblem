@@ -1,17 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Security.Policy;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CuttingStock
 {
     class Program
     {
         //The possible lengths of plank
-        static List<float> PossibleLengths = new List<float> { 450, 900, 1200, 1800 }; 
+        static List<float> PossibleLengths = new List<float> { 450, 900, 1200, 1800 };
+
         private static void Main(string[] args)
         {
             //The cuts to be made
@@ -30,7 +28,7 @@ namespace CuttingStock
                 Console.WriteLine("Cut a {0} long plank by: {1} to end up with {2} waste.", plank.OriginalLength, string.Join(", ", plank.Cuts), plank.FreeLength);
             }
 
-            Console.WriteLine("Finished with {0} waste",GetFree(planks));
+            Console.WriteLine("Finished with {0} waste", GetFree(planks));
 
             Console.ReadKey();
         }
